@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .div1{
+        border-radius: 10px;
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap:5px;
+        flex-wrap: wrap;
+      
+    }
+
+
+
+
+    .div1 img{
+       
+        width: 200px;
+        height:200px;
+    }
+
+    .cd{
+        width: 210px;
+      overflow: hidden;
+    }
+
+    .div1 div{
+    
+        border-radius: 10px;
+        border: 2px solid red;
+        
+       
+    }
+    
+    .name-box{
+        background-color: blue;
+        color: aliceblue;
+        text-align: center;
+    }
+    .description{
+        background-color: aliceblue;
+        height:50px;
+        overflow-y: scroll;
+    }
+    ::-webkit-scrollbar{
+        display:none;
+    }
+   
+   
+
+    
+
+
+
+  
+   
+    @media screen and (min-width:0px) and (max-width:450px)
+     {
+        .div1{
+            display: flex;
+            justify-content: center;
+        }
+     }
+
+     @media screen and (orientation:landscape){
+        body{
+            background-color: aquamarine;
+
+        }
+        .div1{
+            border:2px solid green;
+            padding:25px;
+            background-color: rgb(0, 255, 72);
+
+        }
+     }
+
+
+     
+     @media screen and (orientation:portrait){
+        body{
+            background-color: aquamarine;
+
+        }
+        .div1{
+            border:2px solid green;
+            padding:25px;
+            background-color: rgb(0, 255, 234);
+
+        }
+     }
+     
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="div1">
+     
+     
+     <div class="cd"> 
+       <div> <img src="./assests/pro/1705554961200_cVToy.webp" alt="" > </div>
+       <div class="description"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, tenetur. Sit quaerat voluptatibus nulla aspernatur iure enim aperiam dolores magnam? Alias corrupti pariatur beatae tenetur! Libero repellat quam cum provident.</p></div> 
+
+      <div class="name-box"> <p>GUAVA</p></div>
+    </div>      
+     
+    <div class="cd"> 
+      <div > <img src="./assests/pro/1709066354592_FzaLN.png" alt=""></div>
+      <div class="description"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, tenetur. Sit quaerat voluptatibus nulla aspernatur iure enim aperiam dolores magnam? Alias corrupti pariatur beatae tenetur! Libero repellat quam cum provident.</p></div> 
+
+       <div class="name-box"><P>KWI</P></div> 
+
+
+    </div>   
+     
+    <div class="cd">
+      <div>  <img src="./assests/pro/fa7d4154-d255-4004-b4b3-973ca7aaea8c.webp" alt=""></div>
+      <div class="description"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, tenetur. Sit quaerat voluptatibus nulla aspernatur iure enim aperiam dolores magnam? Alias corrupti pariatur beatae tenetur! Libero repellat quam cum provident.</p></div> 
+
+       <div class="name-box"><P>COCONUT</P></div> 
+
+    </div>    
+
+
+
+    </div>
+</body>
+</html>
